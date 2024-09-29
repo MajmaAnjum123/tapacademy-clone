@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.hero {
+    background-image: url('https://example.com/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(30, 22, 22);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .cta {
+    background-color: #1976d2;
+    color: rgb(16, 11, 116);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.courses {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.courses h3 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.course-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+}
+
+.course-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.course-item .btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    background-color: #e3f2fd;
+    text-align: center;
+}
+
+.testimonials h3 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.placed-students {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.placed-students h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.student-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.student img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.student p {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+footer {
+    background-color: #002a5b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slide 10s linear infinite;
+  }
+  
+  .slider img {
+    width: 150px;
+    margin: 0 20px;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
